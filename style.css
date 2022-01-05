@@ -10,8 +10,12 @@ body {
 }
 
 .stay_focused {
-    font-family: Yeseva One;
+    border-left: 5px solid;
+    border-image: linear-gradient(#FF5959, tomato);
+    border-image-slice: 1;
+    font-family: 'Yeseva One', cursive;
     font-style: normal;
+    padding-left: 15px;
     font-weight: normal;
     font-size: 60px;
     line-height: 80px;
@@ -19,4 +23,46 @@ body {
 
 .yellow {
     color: #FFAD5A;
+}
+
+.paragraph {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    width: 70%;
+}
+
+.flex_code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.my_img {
+    width: 50%;
+}
+
+.button {
+    background: #FF5959;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.small {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 30px;
 }
