@@ -1,0 +1,22 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yeseva One', cursive; */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stay_focused {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.yellow {
+    color: #FFAD5A;
+}
