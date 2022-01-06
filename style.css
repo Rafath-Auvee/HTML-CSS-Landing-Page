@@ -239,7 +239,7 @@ footer {
 }
 
 label {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .flex_code_3 {
@@ -257,6 +257,7 @@ label {
     margin-left: auto;
     width: 50%;
     margin-right: auto;
+    padding-bottom: 50px;
     font-family: 'Yeseva One', cursive;
 }
 
@@ -266,7 +267,7 @@ label {
     /* margin: 0px 2%; */
 }
 
-input {
+.input_class {
     margin-top: 10px;
     border: 2px solid #1f0383;
     border-radius: 12px;
@@ -278,10 +279,22 @@ textarea {
     border: 2px solid #1f0383;
     border-radius: 12px;
     padding: 12px 24px;
-    margin-top: 10px;
     background-color: aquamarine;
 }
 
 #subject {
     margin-bottom: 28px;
+}
+
+.submit_button {
+    background: #FF5959;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
