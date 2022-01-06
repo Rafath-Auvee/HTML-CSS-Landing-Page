@@ -231,3 +231,57 @@ footer {
     height: 150px;
     margin-top: 50px;
 }
+
+.flex_code_2 {
+    display: flex;
+    color: rgb(7, 12, 71);
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.flex_code_3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subject_message {
+    margin-top: 2%;
+    width: 89%;
+    margin-left: 10%;
+}
+
+.fifth_section {
+    margin-left: auto;
+    width: 50%;
+    margin-right: auto;
+    font-family: 'Yeseva One', cursive;
+}
+
+.contact_input {
+    width: 100%;
+    /* margin: 0 5%; */
+    /* margin: 0px 2%; */
+}
+
+input {
+    margin-top: 10px;
+    border: 2px solid #1f0383;
+    border-radius: 12px;
+    background-color: aquamarine;
+    padding: 12px 24px;
+}
+
+textarea {
+    border: 2px solid #1f0383;
+    border-radius: 12px;
+    padding: 12px 24px;
+    margin-top: 10px;
+    background-color: aquamarine;
+}
+
+#subject {
+    margin-bottom: 28px;
+}
